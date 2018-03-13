@@ -1,0 +1,61 @@
+[33mcommit 25331e3d01dd4e4e4c395ca55f1ff782d2de96a9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Tue Mar 13 11:30:14 2018 +0000
+
+    footer to all pages
+
+[33mcommit c1aecd2fe6ac172961beb6b2059c1c56eef5bb59[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Tue Mar 13 11:29:09 2018 +0000
+
+    Update .gitignore
+
+[33mcommit 794f529b819d71f219f43eebdc31cfe12d5432d9[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Tue Mar 13 11:27:35 2018 +0000
+
+    Create .gitignore
+    
+    ignoring all psd files
+
+[33mcommit 71d38f383f4f6d81355f5a5823ff9457f10ab8e7[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Tue Mar 13 11:21:04 2018 +0000
+
+    adding all
+
+[33mcommit 95daaa39fc3d0a795df3c6dc253f779d3e984e37[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Tue Mar 13 10:58:35 2018 +0000
+
+    first shippment
+
+[33mcommit 25b29e3e76f763390be5cd447e768169520e7ab2[m
+Merge: 71b1b82 e263bf0
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Mon Mar 12 17:29:59 2018 +0000
+
+    Merge pull request #2 from m-jerwan/attach-footer-in-all-pages
+    
+    Merge pull request #1 from m-jerwan/master
+
+[33mcommit e263bf02ee2b9e2dafbdb178aa65f23b5fa2bf3c[m[33m ([m[1;31morigin/attach-footer-in-all-pages[m[33m, [m[1;32mattach-footer-in-all-pages[m[33m)[m
+Merge: 5fb319f 71b1b82
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Mon Mar 12 17:29:00 2018 +0000
+
+    Merge pull request #1 from m-jerwan/master
+    
+    Create README.md
+
+[33mcommit 71b1b82cb50c53a4bc989e6bbba9fa755d272a76[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Mon Mar 12 17:26:59 2018 +0000
+
+    Create README.md
+
+[33mcommit 5fb319f40718aff45be2595fc1d987bf67f1024f[m
+Author: m-jerwan <36174379+m-jerwan@users.noreply.github.com>
+Date:   Mon Mar 12 17:17:31 2018 +0000
+
+    Initial commit
