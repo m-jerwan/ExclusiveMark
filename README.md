@@ -1,6 +1,5 @@
-# ExclusiveMark
-sample shop website
+"# eMark"
 
-All images are taken off google image searches. All copywrights belong to respective owners. 
+sample upmarket shop website
 
-"# eMark" 
+All images are taken off google image searches. All copywrights belong to respective owners.
