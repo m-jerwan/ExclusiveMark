@@ -1,0 +1,257 @@
+/*-------colors & fonts
+
+almost black: #1c1c1c;
+gold: #f3ea00; rgba(243, 234, 0, 1);
+almost white: #fff;  rgba(230, 230, 230, 1);
+
+font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+-------*/
+/*================================================= BASE DESIGNS: */
+
+body {
+  font-size: 1vw;     /*<<------MOST DESIGN SIZES BASED ON THIS.*/
+  /*  CODECAMP TUESDAY:::::>>>> check Viewport - respoonsive design*/
+  color: rgba(243, 234, 0, 1);
+  background-color: #1c1c1c;
+  margin: .5em;
+  font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+  overflow: scroll;
+}
+h2 {
+  font-size: 3em;
+}
+.wrapper-headerAndMain {  /*<< WILL MAKE FOOTER STICK TO THE BOTTOM */
+  min-height: calc(100vh - 144px);
+}
+
+
+
+/*================================================= HEADER:*/
+
+header {
+  font-size: 1em;
+  height: 6em;
+  border-bottom: solid rgba(243, 234, 0, .3) 1px;
+  }
+
+  /*                                      navigation*/
+
+header ul {
+  margin-left: 0em;
+  padding: auto;
+  padding-top: .6em;
+  float:left;
+}
+header li{
+  font-size: 2em;
+  color: rgba(243, 234, 0, 1);
+  display: inline-block;
+  padding-right: .5em;
+}
+header li a:link {
+  color: rgba(243, 234, 0, 1);
+  text-decoration: none;
+}
+header li a:hover {
+  color: rgba(243, 234, 0, 0.3);
+}
+header ul a:visited,
+.social-media a:visited {
+  color: rgba(243, 234, 0, 1);
+}
+/*=========================================SELECTORS  styles*/
+.main-continer-for-background {
+  width: 97vw;
+  padding: .5em 0 .5em;
+
+}
+.main-background {
+  font-size: 1em;
+  max-width: 97vw;
+  height: 39vw;
+  max-height: 39vw;
+  background: #000 url('IMG/blackAndWhiteMain.jpg');
+              background-size:100%;
+              background-repeat: no-repeat;
+}
+.social-media {
+  padding: auto;
+  padding-top: .8em;
+  padding-right: .7em;
+  font-size: 2em;
+  float:right;
+  color: rgba(243, 234, 0, 1);
+}
+.social-media a {
+  padding-right: .3em;
+}
+.social-media a:hover {
+  color: rgba(243, 234, 0, 0.3);
+}
+
+/*===================================== GENDERS PAGE: */
+
+/* COLLECTIONS: GENDERS */
+
+.collection-genders {
+  font-size: 1em;
+  padding: .5em 0 .5em;
+}
+.genders {       /*establishing gender sizes & color*/
+  width: 32vw;
+  max-height: 39vw;   /*so on slim browsers doesnt go ape-shit*/
+  margin-left: 0.3em;
+  float: left;
+  overflow: hidden;
+  margin: 0.1em;
+}
+.genders img {
+  height: 100%;
+  width: 100%;
+}
+
+.genders img:hover {
+    opacity: 0.1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+#man-picture {
+  background-image: url("IMG/genders/manBW.jpg");
+  background-size: 100%;
+}
+#woman-picture {
+  background-image: url("IMG/genders/womanBW.jpg");
+  background-size: 100%;
+}
+#kids-picture {
+  background-image: url("IMG/genders/kidsBW.jpg");
+  background-size: 100%;
+}
+
+/*======================================= COLLECTIONS-----MAN */
+
+.collection-links-div {
+  font-size: 1em;
+  padding: .5em 0 .5em;
+  width: 97vw;
+  height: 78.5vh;
+  padding-left: 0.1em;
+  }
+
+.item {
+  display: inline;
+  width: 18.7vw;
+  height: 18.7vw;
+  float: left;
+  padding: 0.1em;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+}
+
+.item img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/*======================================= FOOTER bottom-list*/
+footer {
+  border-top: solid rgba(243, 234, 0, .3) 1px;
+  /* color: rgba(243, 234, 0, .5); */
+}
+
+.bottom-list ul {
+  margin-left: 1em;
+  padding: 0 3em 0;
+  list-style: none;
+  float: left;
+  text-indent: none;
+}
+
+footer #logo {
+  margin: 3em 0 0 2em;
+  padding: 0 8em 0 8em;
+  border-left: solid rgba(243, 234, 0, .8) 1px;
+  border-right: solid rgba(243, 234, 0, .8) 1px;
+}
+
+footer .opening-h {
+  float: right;
+  padding: 0 4em 0 5em;
+}
+
+footer a:link {
+  color: rgba(243, 234, 0, .5);
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: rgba(243, 234, 0, .5);
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgba(243, 234, 0, 1);
+  text-decoration: none;
+}
+
+
+/*======================================= ID styles*/
+#logo {
+  height: 4em;
+  float:left;
+  padding: 1em;
+  opacity: 1 !important;
+  filter: alpha(opacity=1) !important; /* For IE8 and earlier */
+}
+/*================================================= @MEDIA: */
+
+@media (max-width: 400px) {         /*PHONES*/
+  header {                          /*BIGGER HEADER*/
+    font-size: 2.2em;
+  }
+  header ul {
+    margin-left: -2em;
+  }
+  .item {                         /*2 ITEMS IN A ROW INSTEAD OF 10*/
+    width: 48vw;
+    height: 48vw;
+  }
+  .genders img {          /*NO HOVER ON PHONES*/
+      display: block; /*<<<???*/
+      opacity: 0;
+      filter: alpha(opacity=0); /* For IE8 and earlier */
+  }
+  .genders {                      /*making GENDERS vertical */
+      width: 97vw;
+      max-height: 57vh;
+  }
+  .item img {
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+  .main-background {
+    height: 50vh;
+    max-height: 90vh;
+    max-height: none;
+    background: #000 url('IMG/blackAndWhiteMain.jpg');
+                background-size: 200%;
+                background-repeat: no-repeat;
+                background-position: center;
+  }
+
+  .collection-links-div {
+    height: auto;
+  }
+
+} /*/@media (max-width: 400px)*/
+
+
+/*=========================== CLEARFIX:*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
