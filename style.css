@@ -36,26 +36,26 @@ header {
 
   /*                                      navigation*/
 
-header ul {
+nav ul {
   margin-left: 0em;
   padding: auto;
   padding-top: .6em;
   float:left;
 }
-header li{
+nav li{
   font-size: 2em;
   color: rgba(243, 234, 0, 1);
   display: inline-block;
   padding-right: .5em;
 }
-header li a:link {
+nav a:link {
   color: rgba(243, 234, 0, 1);
   text-decoration: none;
 }
-header li a:hover {
+nav a:hover {
   color: rgba(243, 234, 0, 0.3);
 }
-header ul a:visited,
+nav a:visited,
 .social-media a:visited {
   color: rgba(243, 234, 0, 1);
 }
